@@ -1,0 +1,32 @@
+{
+	"country":"NYC",
+	"bayesian":"True",
+	"p_infect_given_contact_range": [0.03, 0.07],
+	"mortality_multiplier_range": [1, 4],
+	"dmult_mult":1.0,
+	"start_date_list": ["02-10-2020"],
+	"start_infected_range": [5, 500],
+	"pinf_mult_range": [2.5],
+	"lockdown_factor":2.0,
+	"second_lockdown_factor":10.0,
+
+	"d_school_lockdown":"12-12-3000",
+	"d_lockdown":"03-16-2020",
+	"d_second_lockdown":"03-23-2030",
+	"d_stay_home":"03-23-2020",
+
+	"d_lockdown_release":"12-12-3000",
+
+	"d_end":"06-29-2020",
+	"close_schools_lockdown":"False",
+
+	"stay_home_groups":[0, 20, 40, 60, 100],
+	"fraction_stay_home":[0, 0, 0, 1.0],
+	
+	"load_posterior":"True",
+	"posterior_file":"NYC_posterior.pickle",
+
+	"runs_to_combine":["nyc_bayesian_policy_1.0_3_distance"],
+	"jobs_per_combo_per_batch":[1],
+	"combined_dir":"nyc_bayesian_policy_1.0_3_distance_combined"
+}

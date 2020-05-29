@@ -1,0 +1,21 @@
+{
+	"country":"Italy",
+	"bayesian":"True",
+	"p_infect_given_contact_range": [0.025, 0.04],
+	"mortality_multiplier_range": [1],
+	"dmult_mult":4.0,
+	"start_date_list": ["01-15-2020", "01-16-2020", "01-17-2020", "01-18-2020", "01-19-2020", "01-20-2020", "01-21-2020", "01-22-2020", "01-23-2020", "01-24-2020", "01-25-2020"],
+	"pinf_mult_range": [1.25],
+	"lockdown_factor":10.0,
+
+	"d_school_lockdown":"12-12-3000",
+	"d_lockdown":"03-08-2020",
+	"d_lockdown_release":"12-12-3000",
+
+	"d_end":"04-29-2020",
+
+	"runs_to_combine":["lombardy_bayesian_9"],
+	"jobs_per_combo_per_batch":[1],
+	"combined_dir":"lombardy_bayesian_9_combined"
+
+}
